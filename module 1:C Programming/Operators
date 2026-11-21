@@ -1,0 +1,125 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <stdio.h>
+
+int main()
+{
+    //Arithmetic operators
+    /*int a=17;
+    int b=8;
+    printf("%d\n",a+b);
+    printf("%d\n",a-b);
+    printf("%d\n",a*b);
+    printf("%d\n",a/b);
+    printf("%d\n",a%b);*/
+    
+    //Assignment operators
+    /*int a=21;
+    printf("%d\n",a);
+    a+=5;
+    printf("%d\n",a);
+    a-=2;
+    printf("%d\n",a);
+    a*=5;
+    printf("%d\n",a);
+    a/=3;
+    printf("%d\n",a);
+    a%=2;
+    printf("%d\n",a);*/
+    
+    //relational operators
+    /*int a=55;
+    int b=5;
+    printf("%d\n",a==b);
+    printf("%d\n",a!=b);
+    printf("%d\n",a<=b);
+    printf("%d\n",a>=b);
+    printf("%d\n",a<b);
+    printf("%d\n",a>b);*/
+    
+    //logical operators
+    /*int a=55;
+    int b=5;
+    printf("%d\n",a==b && a>b);
+    printf("%d\n",a!=b && a>=b);
+     printf("%d\n",a==b || a>b);
+    printf("%d\n",a!=b || a>=b);
+    printf("%d\n",!(a==b && a>b));*/
+    
+    
+    //bitwise operators
+    /*int a=5;
+    int b=8;
+    printf("%d\n",a&b);
+    printf("%d\n",a|b);
+    printf("%d\n",a^b);
+    printf("%d\n",~a);
+    printf("%d\n",a<<2);
+    printf("%d\n",a>>1);*/
+    
+    //special operators
+    //sizeof
+    /*int a=5;
+    float b=8.25;
+    char name[]="shakkesh";
+   printf("%zu\n",sizeof(a));
+    printf("%zu\n",sizeof(b));
+    printf("%zu\n",sizeof(name));
+    
+    //comma operator
+    int c,d,e;
+    e=(c=20,d=40,c*d);
+    printf("%d",e);*/
+    
+    //unary operators
+    /*int f=21;
+    printf("%d\n",f);
+     printf("%d\n",f++);
+    printf("%d\n",f);
+    printf("%d\n",++f);
+    
+    int f=21;
+    printf("%d\n",f);
+     printf("%d\n",f--);
+    printf("%d\n",f);
+    printf("%d\n",--f);*/
+    
+    
+    
+    //ternary operators
+    int a=5;
+    int b=6;
+    int c=(a<b)?a:b;
+    printf("%d",c);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+
+    return 0;
+}
