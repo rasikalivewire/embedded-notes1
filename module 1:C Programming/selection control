@@ -1,0 +1,95 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <stdio.h>
+
+int main()
+{
+    //if
+    /*char name[30];
+    printf("enter a movie name:");
+    scanf("%s",name);
+    printf("movie name is:%s",name);
+    int age;
+    printf("enter your age");
+    scanf("%d",&age);
+    if(age>15){
+        printf("watch movie");
+    }*/
+    
+    
+    /*int age;
+    printf("enter your age");
+    scanf("%d",&age);
+    if(age>15){
+        printf("watch movie");
+    }else{
+        printf("do not watch");
+    }*/
+    
+    
+    //grade system
+    /*int mark;
+    printf("enter mark");
+    scanf("%d",&mark);
+if (mark>90){
+    printf("grade a");
+}
+
+else if (mark>70){
+    printf("grade b");
+}
+
+else if (mark>50){
+    printf("grade c");
+}
+else {
+    printf("fail");*/
+
+  int mark;
+    printf("enter mark");
+    scanf("%d",&mark);
+if (mark>90){
+    printf("grade a");
+    char status[10];
+    printf(" arew u interested yes/no ");
+    scanf("%s",status);
+    if (status=="yes"){
+        printf("claim scholarship");
+    }
+    else{
+        printf("not able to claim");
+    }
+    
+}
+
+else if (mark>70){
+    printf("grade b");
+}
+
+else if (mark>50){
+    printf("grade c");
+}
+else {
+    printf("fail");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    return 0;
+}
